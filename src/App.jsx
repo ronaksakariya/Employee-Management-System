@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Login from "./pages/Login";
-import Dashboard from "./pages/Dashboard";
+import EmployeeDashboard from "./pages/EmployeeDashboard";
+import AdminDashboard from "./pages/AdminDashboard";
 
 const App = () => {
   console.log("app rendered");
@@ -9,7 +10,8 @@ const App = () => {
       <div className="container mx-auto">
         <Routes>
           <Route path="/" element={<Login />} />
-          <Route path="/dash" element={<Dashboard />} />
+          <Route path="/emp" element={<EmployeeDashboard />} />
+          <Route path="/adm" element={<AdminDashboard />} />
         </Routes>
       </div>
     </div>

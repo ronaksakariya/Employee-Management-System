@@ -1,7 +1,7 @@
 import Header from "../components/dashboard/Employee/Header";
 import TaskType from "../components/dashboard/Employee/TaskType";
 
-const Dashboard = () => {
+const EmployeeDashboard = () => {
   return (
     <div className="pt-3">
       <Header />
@@ -10,4 +10,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default EmployeeDashboard;

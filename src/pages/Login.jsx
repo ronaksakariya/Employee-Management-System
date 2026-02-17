@@ -28,7 +28,7 @@ const Login = () => {
     <div className="flex h-screen items-center justify-center">
       <form
         action=""
-        className="flex flex-col gap-10 border-[#83C5BE] border-2 p-5 rounded-2xl"
+        className="flex flex-col gap-10 border-[#004daa] border-2 p-5 rounded-2xl"
       >
         <Input
           type="email"
@@ -40,41 +40,6 @@ const Login = () => {
                   <AccountCircle />
                 </InputAdornment>
               ),
-            },
-          }}
-          sx={{
-            "& .MuiOutlinedInput-root": {
-              backgroundColor: "transparent",
-              borderRadius: "25px",
-              alignItems: "center",
-              "& fieldset": {
-                borderColor: "#83C5BE",
-                borderWidth: "2px",
-              },
-              "&:hover fieldset": {
-                borderColor: "#006D77",
-              },
-              "&.Mui-focused fieldset": {
-                borderColor: "#006D77",
-              },
-            },
-            "& .MuiOutlinedInput-input": {
-              fontFamily: "Inter, sans-serif",
-              color: "#EDF6F9",
-              padding: "14px 10px",
-              "&::placeholder": {
-                color: "#EDF6F9",
-                opacity: 1,
-              },
-            },
-            "& .MuiInputAdornment-root": {
-              color: "#EDF6F9",
-            },
-            "& input::placeholder": {
-              color: "#EDF6F9",
-              fontFamily: "Inter, sans-serif",
-              fontSize: "20px",
-              fontWeight: 600,
             },
           }}
         />
@@ -108,41 +73,6 @@ const Login = () => {
               ),
             },
           }}
-          sx={{
-            "& .MuiOutlinedInput-root": {
-              backgroundColor: "transparent",
-              borderRadius: "25px",
-              alignItems: "center",
-              "& fieldset": {
-                borderColor: "#83C5BE",
-                borderWidth: "2px",
-              },
-              "&:hover fieldset": {
-                borderColor: "#006D77",
-              },
-              "&.Mui-focused fieldset": {
-                borderColor: "#006D77",
-              },
-            },
-            "& .MuiOutlinedInput-input": {
-              fontFamily: "Inter, sans-serif",
-              color: "#EDF6F9",
-              padding: "14px 10px",
-              "&::placeholder": {
-                color: "#EDF6F9",
-                opacity: 1,
-              },
-            },
-            "& .MuiInputAdornment-root": {
-              color: "#EDF6F9",
-            },
-            "& input::placeholder": {
-              color: "#EDF6F9",
-              fontFamily: "Inter, sans-serif",
-              fontSize: "20px",
-              fontWeight: 600,
-            },
-          }}
         />
 
         <div className="flex justify-between items-center">
@@ -164,7 +94,6 @@ const Login = () => {
               fontFamily: "Inter, sans-serif",
               fontSize: "14px",
               fontWeight: 500,
-              color: "#83C5BE",
             }}
           >
             Forgot Password
@@ -174,7 +103,6 @@ const Login = () => {
         <Button
           variant="contained"
           sx={{
-            backgroundColor: "#83C5BE",
             borderRadius: "30px",
             fontFamily: "Inter, sans-serif",
             fontSize: "18px",
